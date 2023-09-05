@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Lu-Chin Chang",
-    "label": "Scientist",
+    // "label": "Scientist",
     "image": "",
     "email": "lcchang0000@gmail.com",
     "phone": "(886) 933218378",
     "url": "https://luchinchang.github.io/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Researcher, Amateur musician, Coffee aficionado",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,14 +24,14 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Genius Star Management Company",
+      "position": "Intern Engineer",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-01",
+      "summary": "Constructed full parametric ship models and performed CFD calculation",
       "highlights": [
-        "Relativity"
+        "CFD, 3D Modeling"
       ]
     }
   ],

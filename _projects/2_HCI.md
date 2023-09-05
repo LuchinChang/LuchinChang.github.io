@@ -1,10 +1,10 @@
 ---
-layout: page
-title: SongChat
-description: a webapp to generate music based on texts and images
+layout: distill
+title: HCI
+description: hihi
 img: assets/img/12.jpg
-importance: 1
-category: work
+importance: 2
+category: self_study
 
 authors:
   - name: LC Chang

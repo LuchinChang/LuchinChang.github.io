@@ -1,10 +1,11 @@
 ---
-layout: page
-title: SongChat
-description: a webapp to generate music based on texts and images
+layout: distill
+title: Calligraphy
+description: hii
 img: assets/img/12.jpg
-importance: 1
-category: work
+importance: 3
+category: fun
+# related_publications: einstein1956investigations, einstein1950meaning
 
 authors:
   - name: LC Chang
