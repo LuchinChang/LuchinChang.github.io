@@ -19,9 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Lu-Chin Chang, or 張律勤 in Chinese.
+Hi, my name is Lu-Chin Chang, or 張律勤 in Chinese. I was born and raised in Taiwan, and I got my B.S. in CS from Zhejiang University, Hangzhou, China.
 
-The website is still building.
+I'm currently applying for graduate programs in the U.S., and I want to explore ways to make communication more human-like and human-centered for my future studies; my ultimate goal is to start a company that provides paradigm-shifting communication services powered by AI.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
