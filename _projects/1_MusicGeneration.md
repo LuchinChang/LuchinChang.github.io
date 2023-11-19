@@ -2,7 +2,7 @@
 layout: distill
 title: ReLyMe
 description: A method to incorporate music theory into data-driven music generation models
-img: assets/img/ReLyMe_Case.jpg
+img: assets/img/ReLyMe_icon.png
 importance: 1
 category: CS
 

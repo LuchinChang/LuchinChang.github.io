@@ -2,7 +2,7 @@
 layout: distill
 title: PDAugment
 description: A data augmentation method for End-to-End Automtic Lyric Transcription Systems
-img: assets/img/PDAugment_structure.PNG
+img: assets/img/PDAugment_icon.png
 importance: 2
 category: CS
 
