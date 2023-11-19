@@ -1,10 +1,10 @@
 ---
 layout: distill
-title: HCI
-description: hihi
-img: assets/img/12.jpg
-importance: 2
-category: self_study
+title: Originals
+description: A collection of my original songs
+img: assets/img/Originals.png
+importance: 3
+category: Music
 
 authors:
   - name: LC Chang

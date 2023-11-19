@@ -1,11 +1,10 @@
 ---
 layout: distill
-title: Calligraphy
-description: hii
-img: assets/img/12.jpg
-importance: 3
-category: fun
-# related_publications: einstein1956investigations, einstein1950meaning
+title: PDAugment
+description: A data augmentation method for End-to-End Automtic Lyric Transcription Systems
+img: assets/img/PDAugment_structure.PNG
+importance: 2
+category: CS
 
 authors:
   - name: LC Chang

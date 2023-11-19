@@ -55,6 +55,7 @@ table.table a {
 figure,
 img {
   max-width: 90vw;
+  // margin-left: 1rem;
 }
 
 blockquote {
@@ -163,6 +164,10 @@ blockquote {
   }
 }
 
+// Overall Font
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
 
 // Navbar customization
 
@@ -171,6 +176,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar .dropdown-menu {

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -19,9 +19,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Lu-Chin Chang, or 張律勤 in Chinese. I was born and raised in Taiwan, and I got my B.S. in CS from Zhejiang University, Hangzhou, China.
+<div>
+Hi, my name is Lu-Chin Chang, or 張律勤 in Chinese. I got my B.S. in Computer Science from Zhejiang University, Hangzhou, China.
+</div>
 
-I'm currently applying for graduate programs in the U.S., and I want to explore ways to make communication more human-like and human-centered for my future studies; my ultimate goal is to start a company that provides paradigm-shifting communication services powered by AI.
+<br>
+<hr align="left" width="68%">
+
+<h4>Research Statement</h4> 
+I ultimately envision helping people establish trust-based communication and expressing their feelings in an authentic and aesthetically pleasing manner, thereby enhancing mental resilience and improving communication online. Therefore, I'm interested in media content creation which I believe could help achieve my goal by enhancing the degree of personalization and customization for future communication. With this determination in mind, I would like to explore Generative AI related topics in my graduate study, including Multimodal Learning, Evaluation Methods, and Co-Creative systems.
+
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

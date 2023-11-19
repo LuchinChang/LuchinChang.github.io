@@ -1,10 +1,10 @@
 ---
 layout: distill
-title: Music
-description: hi
-img: assets/img/12.jpg
-importance: 4
-category: fun
+title: ReLyMe
+description: A method to incorporate music theory into data-driven music generation models
+img: assets/img/ReLyMe_Case.jpg
+importance: 1
+category: CS
 
 authors:
   - name: LC Chang

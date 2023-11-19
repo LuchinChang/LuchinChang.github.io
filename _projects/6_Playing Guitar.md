@@ -1,10 +1,10 @@
 ---
-layout: page
-title: SongChat
-description: a webapp to generate music based on texts and images
+layout: distill
+title: Covers
+description: A collection of videos that I cover some of my favorite songs
 img: assets/img/12.jpg
-importance: 1
-category: work
+importance: 5
+category: Music
 
 authors:
   - name: LC Chang

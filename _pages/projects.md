@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+title: Portfolio
+permalink: /portfolio/
+description:
+nav: true
 nav_order: 2
-# display_categories: [work, fun, self_study]
-horizontal: false
+display_categories: [CS, Music]
+horizontal: False
 ---
 
 <!-- pages/projects.md -->
