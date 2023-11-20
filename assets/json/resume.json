@@ -1,26 +1,11 @@
 {
   "basics": {
     "name": "Lu-Chin Chang",
-    // "label": "Scientist",
-    "image": "",
+    "image": "prof_pic.jpg",
     "email": "lcchang0000@gmail.com",
     "phone": "(886) 933218378",
     "url": "https://luchinchang.github.io/",
-    "summary": "Researcher, Amateur musician, Coffee aficionado",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "summary": "Researcher, Musician, Coffee aficionado"
   },
   "work": [
     {
@@ -41,13 +26,9 @@
       "institution": "Zhejiang University, Hangzhou, China",
       "url": "https://www.uzh.ch/",
       "area": "Computer Science",
-      "studyType": "BS",
+      "studyType": "Bachelor in Engineering",
       "startDate": "2018-09",
       "endDate": "2022-06"
-      // "score": "",
-      // "courses": [
-      //   "Theory of Relativity"
-      // ]
     }
   ],
   // "awards": [
@@ -62,14 +43,14 @@
   "publications": [],
   "skills": [],
   "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
+    // {
+    //   "language": "Chinese",
+    //   "fluency": "Native speaker"
+    // },
+    // {
+    //   "language": "English",
+    //   "fluency": "Fluent"
+    // }
   ],
   "interests": [],
   "references": [],
