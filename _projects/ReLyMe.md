@@ -16,6 +16,7 @@ toc:
   - name: Introduction
   - name: Music Theory
   - name: Method
+  - name: Evaluation
   - name: Demo
     # subsections:
     #   - name: Example Child Subsection 1
@@ -36,6 +37,8 @@ In summary, the main contributions of this work are as follows:
 ## Music Theory
 
 ## Method
+
+## Evaluation
 
 ## Demo
 
