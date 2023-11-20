@@ -2,7 +2,7 @@
 layout: distill
 title: DongCi Daci
 description: An automatic lyric animation generation system
-img: assets/img/12.jpg
+img: assets/img/DongciDaci_icon.png
 importance: 4
 category: CS
 # related_publications: einstein1956investigations, einstein1950meaning
