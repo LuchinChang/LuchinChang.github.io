@@ -1,8 +1,8 @@
 ---
-layout: distill
+layout: page
 title: Covers
-description: A collection of videos that I cover some of my favorite songs
-img: assets/img/12.jpg
+description: A collection of me playing some of my favorite songs
+img: assets/img/Covers_icon.png
 importance: 5
 category: Music
 

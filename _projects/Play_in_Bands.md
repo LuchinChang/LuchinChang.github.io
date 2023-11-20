@@ -1,8 +1,8 @@
 ---
-layout: distill
+layout: page
 title: Play in bands
 description: A collection of the perfomances of my bands
-img: assets/img/Play in bands.jpeg
+img: assets/img/Play_in_Bands_icon.png
 importance: 4
 category: Music
 

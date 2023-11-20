@@ -1,8 +1,8 @@
 ---
-layout: distill
+layout: page
 title: Originals
 description: A collection of my original songs
-img: assets/img/Originals.png
+img: assets/img/Originals_icon.png
 importance: 3
 category: Music
 
