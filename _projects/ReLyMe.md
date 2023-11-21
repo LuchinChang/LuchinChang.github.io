@@ -12,7 +12,7 @@ authors:
   - name: LC Chang
     url: "https://luchinchang.github.io/"
     affiliations:
-      name: None
+      name: Zhejiang University
 
 toc:
   - name: Introduction
@@ -21,8 +21,7 @@ toc:
     - name: Tone
     - name: Rhythm
     - name: Structure
-  - name: Method
-  - name: Experiment
+  - name: Experiments and Results
   - name: Demo
     
 
@@ -116,7 +115,7 @@ In music, form refers to the structure of a musical composition or performance, 
 
 {% include figure_mid.html path="assets/img/ReLyMe/structure.jpg" title="case" class="img-fluid rounded z-depth-1" caption="Figure 6: An example that shows the structure relationships between lyrics and melodies. The third sentence repeats the first sentence (see blue lines), and the fourth sentence repeats the second sentence (see green lines)." %}
 
-## Experiment
+## Experiments and Results
 
 In this work, we apply ReLyMe to SongMass and TeleMelody, two state-of-the-art systems in end-to-end and multi-stage L2M generation systems respectively. For the main experiments, we compare the original version of these two systems with the systems equipped with ReLyMe in Chinese and English. The results are evaluated with the introduced subjective and objective evaluation metrics which are give below.
 
