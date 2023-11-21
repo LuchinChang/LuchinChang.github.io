@@ -8,4 +8,7 @@
         {% if include.width %}width="{{ include.width }}"{% else %}width="700"{% endif %}
         {% if include.height %}height="{{ include.height }}"{% else %}height="480"{% endif %}>
     </iframe>
+
+    {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
+
 </div>

@@ -21,9 +21,8 @@ toc:
     - name: Tone
     - name: Rhythm
     - name: Structure
-    - name: Application to L2M Generation Systems
   - name: Method
-  - name: Evaluation
+  - name: Experiment
   - name: Demo
     
 
@@ -100,17 +99,38 @@ We consider the rhythmic relationship in two dimensions: 1) intensity at a certa
 
 <h4>Strong/Weak Positions.</h4>
 
+Both melodies and lyrics have the "strong" and "weak" elements, and the movement marked by the regulated succession of these elements is described as rhythm. A songwriter tends to align downbeats or accents with stressed syllables or important words. Aligning the rhythm of melody and lyrics helps convey meaning, express empathy and render emotion. The strong and weak positions in melody lines could be determined by multiple factors: pitch, duration, syncopation, meter, and so on. During automatic melody generation, for simplicity, the strong and weak beats can be derived from the predefined time signature. In lyrics, on the other hand, the strong and weak positions are mainly influenced by oral speaking habits, specific semantics, intent of speakers, and expressed emotions. For example, in spoken language, the auxiliary words tend to be pronounced lightly, while the keywords in the lyrics are often regarded as accents, which are pronounced louder to attract the attention of listeners and emphasize the elements. The strong and weak positions of melodies are aligned with those of lyrics to ensure harmony of performance and correct meaning.
+
+{% include figure_mid.html path="assets/img/ReLyMe/strong_weak.jpg" title="case" class="img-fluid rounded z-depth-1" caption="Figure 4: A bad case that assigns an auxiliary word to downbeat. The question auxiliary “ma” is heard as “ma”, which means mother." %}
 
 <h4>Pause Positions.</h4>
 
+Pauses in speech divide the entire sentence into several parts with separate meanings (called prosodic phrases) to help the listener understand. Sentences with the same content but different pause positions can have completely different meanings, and the division of prosodic phrases that defies common sense can lead to confusion for listeners. In melody, the pauses are caused by either REST notes or long notes and split the melody into musical phrases, which make complete musical sense when heard on their own. When the lyrics are sung with given melodies, the pause positions are no longer influenced by the spoken idiom but are controlled by the pauses in the melody. A phenomenon called “broken phrases” occurs if syllables of the same prosodic phrase are assigned to different musical phrases. This phenomenon impairs the harmony between the melody and the lyrics and makes the lyrics hard to understand for listeners.
 
+{% include figure_mid.html path="assets/img/ReLyMe/pause_position.jpg" title="case" class="img-fluid rounded z-depth-1" caption="Figure 5: A bad case that breaks the principle of pause positions. There is a pause caused by long notes inside a word (red arrow), while an appropriate pause should be at the blue arrow. This mismatch spoils the coherence of the song." %}
 
 ### Structure
 
-### Application to L2M Generation Systems
+At the full song level, the structure of lyrics and melody are constrained and influenced by each other.
+In music, form refers to the structure of a musical composition or performance, including repetition, transition and development. To better convey emotion and show artistry, lyrics and melodies which belong to the same musical form would share the same characteristics like rhyme (in lyrics) or motives (in melodies). Specifically, in lyric-to-melody generation, the melody segments that correspond to the lyrics of the same structure tend to have similar pitch flows.
 
-## Evaluation
+{% include figure_mid.html path="assets/img/ReLyMe/structure.jpg" title="case" class="img-fluid rounded z-depth-1" caption="Figure 6: An example that shows the structure relationships between lyrics and melodies. The third sentence repeats the first sentence (see blue lines), and the fourth sentence repeats the second sentence (see green lines)." %}
+
+## Experiment
+
+In this work, we apply ReLyMe to SongMass and TeleMelody, two state-of-the-art systems in end-to-end and multi-stage L2M generation systems respectively. For the main experiments, we compare the original version of these two systems with the systems equipped with ReLyMe in Chinese and English. The results are evaluated with the introduced subjective and objective evaluation metrics which are give below.
+
+{% include figure.html path="assets/img/ReLyMe/obj_result.png" class="img-fluid rounded" caption="Table 1: Objective Evaluation" %}
+{% include figure.html path="assets/img/ReLyMe/sub_result.png" class="img-fluid rounded" caption="Table 2: Subjective Evaluation" %}
+
+We also perform method analysis discussing:
+
+1. Relationships of different aspects (tone, rhythm, structure).
+2. How strong should the constraints given by the relationships be.
+3. Different stages of incorporating the relationships (during training, while decoding, after decoding).
+
+Please refer to the <a href="{{page.paper}}">paper</a> for more details.
 
 ## Demo
 
-{% include youtubePlayer.html id=page.demoId class="rounded"%}
+{% include youtubePlayer.html id=page.demoId class="rounded" caption="The melody generated with ReLyMe given the lyric of “Qing Hua Ci” by Jay Chou." %}
