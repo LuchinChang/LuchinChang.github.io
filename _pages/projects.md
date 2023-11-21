@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-description: <em>I have always wanted to create technologies that lower the barrier for people to make their own art, so that the power of art will extend to places where it has never been before.</em>
+description: <em>I have always wanted to create technologies that lower the barriers for people to make their own art, so that the power of art will extend to places where it has never been before.</em>
 nav: true
 nav_order: 2
 display_categories: [CS, Music]
