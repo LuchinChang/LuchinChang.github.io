@@ -23,9 +23,10 @@ toc:
     - name: Pitch Adjuster
     - name: Duration Adjuster
   - name: Experiments and Results
+  - name: Acknowledgments
 ---
 
-Authors of the paper: Zhang, Chen and Yu, Jiaxing and Chang, LuChin and Tan, Xu and Chen, Jiawei and Qin, Tao and Zhang, Kejun
+Authors of the [paper]({{ page.paper }}): Zhang, Chen and Yu, Jiaxing and Chang, LuChin and Tan, Xu and Chen, Jiawei and Qin, Tao and Zhang, Kejun
 
 ## Introduction
 
@@ -79,3 +80,7 @@ We compare our results with several settings as baselines: 1) Naive ALT, the ALT
 {% include figure.html path="assets/img/PDAugment/Dali_result.png" class="img-fluid rounded" caption="Table 2: The WERs (%) of Dali corpus." %}
 
 For more experiment details and ablation studies, please refer to the <a href="{{page.paper}}">paper</a> and the <a href="{{page.code}}">code repo</a>.
+
+## Acknowledgments
+
+This work was done while I was a research assistant at NextLab, Zhejiang University in 2021, and it is part of the Microsoft [Muzic](https://github.com/microsoft/muzic) open source library.

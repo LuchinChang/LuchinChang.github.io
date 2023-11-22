@@ -23,11 +23,11 @@ toc:
     - name: Structure
   - name: Experiments and Results
   - name: Demo
-    
+  - name: Acknowledgments
 
 demoId: HbDs_FsLnTA
 ---
-Authors of the paper: Zhang, Chen and Chang, Luchin and Wu, Songruoyao and Tan, Xu and Qin, Tao and Liu, Tie-Yan and Zhang, Kejun
+Authors of the [paper]({{ page.paper }}): Zhang, Chen and Chang, Luchin and Wu, Songruoyao and Tan, Xu and Qin, Tao and Liu, Tie-Yan and Zhang, Kejun
 
 ## Introduction
 
@@ -133,3 +133,7 @@ Please refer to the <a href="{{page.paper}}">paper</a> for more details.
 ## Demo
 
 {% include youtubePlayer.html id=page.demoId class="rounded" caption="The melody generated with ReLyMe given the lyric of “Qing Hua Ci” by Jay Chou." %}
+
+## Acknowledgments
+
+This work was done while I was a research assistant at NextLab, Zhejiang University in 2022, and it is part of the Microsoft [Muzic](https://github.com/microsoft/muzic) open source library.

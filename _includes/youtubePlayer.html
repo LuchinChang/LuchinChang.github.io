@@ -1,11 +1,11 @@
-<div class="embed-container">
+<div class="embed-container" style="position: relative;">
     <iframe
         src="https://www.youtube.com/embed/{{ include.id }}"
-        frameborder="0"
-        allowfullscreen="true"
+        allowfullscreen
+        position="absolute"
         {% if include.title %}title="{{ include.title }}"{% endif %}
         {% if include.class %}class="{{ include.class }}"{% endif %}
-        {% if include.width %}width="{{ include.width }}"{% else %}width="700"{% endif %}
+        {% if include.width %}width="{{ include.width }}"{% else %}width="100%"{% endif %}
         {% if include.height %}height="{{ include.height }}"{% else %}height="480"{% endif %}>
     </iframe>
 
