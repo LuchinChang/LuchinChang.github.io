@@ -132,7 +132,7 @@ Please refer to the <a href="{{page.paper}}">paper</a> for more details.
 
 ## Demo
 
-{% include youtubePlayer.html id=page.demoId class="rounded" caption="The melody generated with ReLyMe given the lyric of “Qing Hua Ci” by Jay Chou." %}
+{% include youtubePlayer.html id=page.demoId class="rounded" caption="The melody generated with ReLyMe (in TeleMelody) given the lyric of “Qing Hua Ci” by Jay Chou." %}
 
 ## Acknowledgments
 

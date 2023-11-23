@@ -22,11 +22,13 @@ toc:
 
 ## Introduction
 
-DongCi DaCi <a id="name-link" href="#naming-origin">[1]</a> is an automatic lyric animation generating system that allows users to generate lyric animations within few clicks, and an unique editing tool for users to customize their animations. It aims to improve creativity and experiences of creating lyric animations through tool innovation, and to lower the learning threshold of lyric animation production.
+DongCi DaCi <a id="name-link" href="#naming-origin">[1]</a> is an automatic lyric animation generation system that allows users to generate lyric animations within few clicks, and an unique editing tool for users to customize their animations. It aims to improve creativity and experiences of creating lyric animations through tool innovation, and to lower the learning threshold of lyric animation production.
 
-The system is divided into two components, mood board and story board, which control the overall visualization style and the flow of animations respectively. We use Muisc Information Retrieval (MIR) technologies to extract relevant information of songs as the input of these two compononets, including emotional features such as valence, loudness and acousticness and basic information such as beats, tempos and sections.
+The system is divided into two components, mood board and storyboard, which control the overall visualization style and the flow of animations respectively. We use Muisc Information Retrieval (MIR) technologies to extract relevant information of songs as the input of these two compononets, including emotional features such as valence, loudness and acousticness and basic information such as beats, tempos and sections.
 
-Inside the mood board, we handcrafted mapping rules from emotional features to the visual components of animations, such as fonts, hues, geometry shapes, etc. On the other hand, the story board controls when a word should appear according to lyric-music alignment information and when a change between sections should happen (also based on input music's sections, such as verse and chorus).
+Inside the mood board, we handcrafted mapping rules from emotional features to the visual components of animations, such as fonts, hues, geometry shapes, etc. On the other hand, the storyboard controls when a word should appear according to lyric-music alignment information and when a change between sections should happen (also based on input music's sections, such as verse and chorus).
+
+{% include figure_mid.html path="assets/img/DongCi_DaCi/Conceptual_Model.png" class="img-fluid rounded z-depth-1" caption="Figure 1: Product Conceptual Model of DongCi DaCi." %}
 
 At the end of the day, users can choose between creating their own lyric animations with default settings or fine-tune the parameters used to generate the animations to their satisfication.
 
