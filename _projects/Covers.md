@@ -13,19 +13,28 @@ authors:
       name: None
 ---
 
-Pool: https://youtu.be/QfytQO2ljhU
+## Guitar Solo
 
-Lemon tree: https://youtu.be/CLaPjCDh2tU
+{% include youtubePlayer.html id="5zOMtrtJhNQ" title="Stairway to heaven" class="rounded" height="150" caption="" %}
 
-Foggy town: https://youtu.be/1kwQF3n8Ny4
+{% include youtubePlayer.html id="6FA2pYtgtC4" title="Hold the line" class="rounded" height="150" caption="" %}
 
-Dead in the water: https://youtu.be/7tu2SifhlRM
+{% include youtubePlayer.html id="V1uyxTkNE1A" title="Aquarium" class="rounded" height="150" caption="" %}
 
-hold the line: https://youtu.be/6FA2pYtgtC4
+{% include youtubePlayer.html id="1kwQF3n8Ny4" title="Foggy town" class="rounded" height="150" caption="" %}
 
-Glassy House: https://youtu.be/V1uyxTkNE1A
+<hr>
 
-stairway to heaven: https://youtu.be/5zOMtrtJhNQ
+## Band Covers
 
-Devotion: https://youtu.be/i62D7hutzwk
+{% include youtubePlayer.html id="i62D7hutzwk" title="Devotion" class="rounded" height="150" caption="" %}
 
+{% include youtubePlayer.html id="QfytQO2ljhU" title="Pool" class="rounded" height="150" caption="" %}
+
+<hr>
+
+## Other Covers
+
+{% include youtubePlayer.html id="CLaPjCDh2tU" title="Lemon Tree" class="rounded" height="150" caption="" %}
+
+{% include youtubePlayer.html id="7tu2SifhlRM" title="Dead in the water" class="rounded" height="150" caption="" %}
