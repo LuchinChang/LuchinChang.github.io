@@ -12,14 +12,21 @@ authors:
     affiliations:
       name: None
 ---
-{% include under_construction.html %}
 
-zuoshiren: https://youtu.be/fy4iqJtWSO4
+{% include youtubePlayer.html id="uyYIJ0YnMH0" title="Come Together" class="rounded" height="150" caption="@JiuQiuHui Livehouse, Hangzhou" %}
 
-Come Together: https://youtu.be/uyYIJ0YnMH0
+{% include youtubePlayer.html id="JJ6lCEu11ns" title="Feeling Good" class="rounded" height="150" caption="@JiuQiuHui Livehouse, Hangzhou" %}
 
-Feeling Good: https://youtu.be/JJ6lCEu11ns
+{% include youtubePlayer.html id="_5k8gBDoyrk" title="Dear Mr. Wayne" class="rounded" height="150" caption="@ZJU Music Festival, Hangzhou" %}
 
-laowang: https://youtu.be/5Rmg_M_Vc0c
+{% include youtubePlayer.html id="yqT0h4_OHJw" title="How" class="rounded" height="150" caption="@JiuQiuHui Livehouse, Hangzhou" %}
 
+{% include youtubePlayer.html id="fy4iqJtWSO4" title="Zuoshiren" class="rounded" height="150" caption="@JiuQiuHui Livehouse, Hangzhou" %}
 
+{% include youtubePlayer.html id="5Rmg_M_Vc0c" title="Sleepless Night" class="rounded" height="150" caption="@JiuQiuHui Livehouse, Hangzhou" %}
+
+<hr>
+
+These perfomances are all with my band "Southern Aviators", which I formed and lead as the lead vocalist and the guitar player from 2018 to 2022.
+
+My bandmates are Yisi (guitar), Mushroom (guitar), Alexia (drum), Xiong (keys, sax), Black Bear (sax), JJ (trumpet), Huang (sax), Du (drum), Chirui (bass).

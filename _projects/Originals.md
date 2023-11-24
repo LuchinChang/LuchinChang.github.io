@@ -26,7 +26,7 @@ These songs are demos and motifs of songs of my future instrumental album "You D
 
 {% include soundcloud.html token="1672332009%3Fsecret_token%3Ds-REMuQ1mtc62" title="YDK 4 Pt.1" caption="KNOW | style: alternative." %}
 
-{% include soundcloud.html token="1672332057%3Fsecret_token%3Ds-Z0PbZzyKRlE" title="How" caption="HOW | style: math rock, post rock." %}
+{% include soundcloud.html token="1672332057%3Fsecret_token%3Ds-Z0PbZzyKRlE" title="How" caption="HOW | compose w' Xiong | style: math rock, post rock." %}
 
 {% include soundcloud.html token="1672332045%3Fsecret_token%3Ds-v5tE1tiUuxC" title="Past" caption="PAST | style: alternative." %}
 
@@ -38,4 +38,4 @@ These songs are demos and motifs of songs of my future instrumental album "You D
 
 {% include soundcloud.html token="1672332069%3Fsecret_token%3Ds-2wnuphxPjUC" title="Give" caption="GIVE | style: R&B." %}
 
-{% include youtubePlayer.html id="uBDx5snRRtk" title="NQ. 1" class="rounded" height="130" caption="OUTRO | style: alternative." %}
+{% include youtubePlayer.html id="uBDx5snRRtk" title="NQ. 1" class="rounded" height="130" caption="OUTRO | compose w' Xiong, Du | style: alternative." %}
