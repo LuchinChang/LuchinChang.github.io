@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <div>
-Welcome! I'm Lu-Chin Chang, or 張律勤 in Chinese. Previously, I got my B.E. in Computer Science from Zhejiang University.
+Welcome! I'm Lu-Chin Chang, or 張律勤 in Chinese. I am currently a MSCS student from GaTech. Previously, I got my B.E. in Computer Science from Zhejiang University.
 </div>
 
 <br>
