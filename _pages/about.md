@@ -20,13 +20,24 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <div>
-Welcome! I'm Lu-Chin Chang, or 張律勤 in Chinese. I am currently a MSCS student from GaTech. Previously, I got my B.E. in Computer Science from Zhejiang University.
+Hi there! I'm Lu-Chin Chang, a Master's student in Computer Science at Georgia Tech. My research interests lie at the intersection of AI, social good, and interpretability, driven by a passion for harnessing the power of AI to create positive societal impact in a transparent and responsible manner.
 </div>
 
 <br>
 <hr align="left" width="68%">
 
-<h4>Research Statement</h4> 
-At the heart of my research lies a vision of creation and empathy—two profound forces that connect and elevate humanity. Whether through music, a 3A RPG game, a film, or immersive experiences like VR, art serves as a bridge, enabling self-expression and fostering deep connections. My motivation is to explore how AI can amplify these forms of creativity, empowering individuals to create, collaborate, and share their stories in ways that resonate universally.
+<h4>Research Statement</h4>
+I am deeply passionate about the transformative potential of AI to drive positive change. My research is fueled by a strong conviction that by developing AI systems that are transparent, accountable, and aligned with human values so that we can unlock the full potential of this technology to benefit society as a whole.
+Through my work, I am committed to pushing the boundaries of what is possible with AI, while always keeping the well-being of humanity at the forefront. By collaborating across disciplines, engaging with diverse stakeholders, and prioritizing the interpretability and ethical implications of my work, I strive to create AI solutions that not only perform at the highest level but also earn the trust and understanding of the people they serve.
+Ultimately, my goal is to contribute to a future in which AI acts as a powerful force for good, empowering individuals, communities, and society as a whole to tackle our greatest challenges and achieve our highest aspirations. 
 
-Guided by this vision, my research seeks to democratize artistic creation by developing AI systems that are intuitive, inclusive, and adaptable across various mediums. From music composition to interactive game design, I aim to design tools that cater to diverse user needs, offering flexibility for novices and experts alike. By blending technological innovation with a human-centric approach, I hope to make artistic creation more accessible, pushing the boundaries of what we can achieve through empathy, imagination, and connection.
+<details>
+  <summary class="text-gray"><i>Expand for more details</i></summary>
+  <div markdown="1">
+My journey into this field began with a series of pivotal experiences that shaped my perspective. Reading "[Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)" by Dario Amodei sparked my excitement about AI's potential to drive meaningful change across domains, while "[The Lessons of History](https://www.goodreads.com/book/show/174713.The_Lessons_of_History)" by Will Durant challenged my skepticism about technology's societal value and ignited my commitment to using AI for empowerment and progress.
+
+These insights have guided my research endeavors, which build upon my interdisciplinary background in music, AI, and HCI. Projects like [ReLyMe]({% link _projects/ReLyMe.md %}), where I integrated music theory into AI-driven melody generation, exemplify my approach of incorporating domain knowledge to enhance interpretability and align AI outputs with human values. Similarly, my work on [PDAugment]({% link _projects/PDAugment.md %}), which transformed speech data into singing data to address data scarcity, highlights the potential of creative data augmentation techniques to promote diversity and inclusion in AI.
+
+Looking ahead, I remain open and excited to explore a wide range of problems and application areas within AI for social good and interpretable AI. I believe that the key to finding the most impactful research directions lies in engaging with diverse perspectives and being responsive to the needs of the communities we aim to serve.
+  </div>
+</details>
