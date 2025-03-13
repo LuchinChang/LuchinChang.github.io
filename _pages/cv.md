@@ -1,6 +1,7 @@
 ---
 layout: cv
-permalink: /assets/pdf/Resume_Lu-Chin Chang.pdf
+# permalink: /assets/pdf/Resume_Lu-Chin Chang.pdf
+permalink: /cv/
 title: CV
 nav: true
 nav_order: 4

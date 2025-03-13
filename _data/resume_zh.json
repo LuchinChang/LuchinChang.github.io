@@ -1,0 +1,55 @@
+{
+  "basics": {
+    "name": "張律勤",
+    "image": "prof_HongKong.jpg",
+    "email": "lcchang0000@gmail.com",
+    "phone": "(86) 18823348934",
+    "summary": "研究員、音樂家、咖啡愛好者"
+  },
+  "work": [
+    {
+      "name": "天才星管理公司",
+      "position": "實習工程師",
+      "url": "https://example.com",
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-01",
+      "summary": "建構全參數化船舶模型並進行CFD計算",
+      "highlights": [
+        "CFD, 3D建模"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "浙江大學",
+      "studyType": "工學學士 計算機科學與技術",
+      "startDate": "2018-09",
+      "endDate": "2022-06"
+    },
+    {
+      "institution": "喬治亞理工學院",
+      "studyType": "理學碩士 計算機科學",
+      "startDate": "2024-09",
+      "endDate": "2026-06"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "托福: 109分"
+    },
+    {
+      "name": "GRE: 325分"
+    }
+  ],
+  "languages": [
+    {
+      "language": "中文",
+      "fluency": "母語"
+    },
+    {
+      "language": "英文",
+      "fluency": "流利",
+      "certificate": "托福 109分, GRE 325分"
+    }
+  ]
+} 
