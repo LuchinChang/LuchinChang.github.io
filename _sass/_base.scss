@@ -369,10 +369,12 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
 
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
+      border-radius: 0.5rem;
 
       .badge {
         color: var(--global-card-bg-color) !important;
