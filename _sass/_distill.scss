@@ -19,6 +19,8 @@ d-byline a, d-article d-byline a {
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
+  max-width: 100% !important;
+  width: 100% !important;
   p, h1, h2, h3, h4, h5, h6, li, table {
     color: var(--global-text-color) !important;
   }
