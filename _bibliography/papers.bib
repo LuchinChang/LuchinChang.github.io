@@ -1,115 +1,63 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{zhang2022relyme,
+  abbr={Relyme},
+  title={Relyme: Improving lyric-to-melody generation by incorporating lyric-melody relationships},
+  author={Zhang, Chen and Chang, Luchin and Wu, Songruoyao and Tan, Xu and Qin, Tao and Liu, Tie-Yan and Zhang, Kejun},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={1047--1056},
+  year={2022},
+  pdf={https://arxiv.org/pdf/2207.05688.pdf},
+  code={https://github.com/microsoft/muzic/tree/main/relyme},
+  website={https://luchinchang.github.io//projects/ReLyMe/},
   selected={true},
-  inspirehep_id = {3255}
+  abstract={Lyric-to-melody generation, which generates melody according
+    to given lyrics, is one of the most important automatic music
+    composition tasks. With the rapid development of deep learning,
+    previous works address this task with end-to-end neural network
+    models. However, deep learning models cannot well capture the
+    strict but subtle relationships between lyrics and melodies, which
+    compromises the harmony between lyrics and generated melodies.
+    In this paper, we propose ReLyMe, a method that incorporates
+    Relationships between Lyrics and Melodies from music theory to
+    ensure the harmony between lyrics and melodies. Specifically, we
+    first introduce several principles that lyrics and melodies should
+    follow in terms of tone, rhythm, and structure relationships. These
+    principles are then integrated into neural network lyric-to-melody
+    models by adding corresponding constraints during the decoding
+    process to improve the harmony between lyrics and melodies. We
+    use a series of objective and subjective metrics to evaluate the generated melodies. Experiments on both English and Chinese song
+    datasets show the effectiveness of ReLyMe, demonstrating the superiority of incorporating lyric-melody relationships from the music
+    domain into neural lyric-to-melody generation.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{zhang2022pdaugment,
+  abbr={PDAugment},
+  title={PDAugment: Data Augmentation by Pitch and Duration Adjustments for Automatic Lyrics Transcription},
+  author={Zhang, Chen and Yu, Jiaxing and Chang, LuChin and Tan, Xu and Chen, Jiawei and Qin, Tao and Zhang, Kejun},
+  booktitle={Ismir 2022 Hybrid Conference},
+  year={2022},
+  pdf={https://arxiv.org/pdf/2109.07940.pdf},
+  code={https://github.com/microsoft/muzic/tree/main/pdaugment},
+  website={https://luchinchang.github.io//projects/PDAugment/},
+  selected={true},
+  abstract={Automatic lyrics transcription (ALT), which can be regarded
+    as automatic speech recognition (ASR) on singing voice, is
+    an interesting and practical topic in academia and industry.
+    ALT has not been well developed mainly due to the dearth
+    of paired singing voice and lyrics datasets for model training.
+    Considering that there is a large amount of ASR training data,
+    a straightforward method is to leverage ASR data to enhance
+    ALT training. However, the improvement is marginal when
+    training the ALT system directly with ASR data, because
+    of the gap between the singing voice and standard speech
+    data which is rooted in music-specific acoustic characteristics in singing voice. In this paper, we propose PDAugment,
+    a data augmentation method that adjusts pitch and duration
+    of speech at syllable level under the guidance of music scores
+    to help ALT training. Specifically, we adjust the pitch and
+    duration of each syllable in natural speech to those of the corresponding note extracted from music scores, so as to narrow
+    the gap between natural speech and singing voice. Experiments on DSing30 and Dali corpus show that the ALT system
+    equipped with our PDAugment outperforms previous stateof-the-art systems by 5.9% and 18.1% WERs respectively,
+    demonstrating the effectiveness of PDAugment for ALT.}
 }
